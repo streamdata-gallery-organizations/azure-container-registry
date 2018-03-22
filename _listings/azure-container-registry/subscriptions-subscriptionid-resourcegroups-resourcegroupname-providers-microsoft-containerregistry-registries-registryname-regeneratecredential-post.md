@@ -31,7 +31,8 @@ paths:
         200:
           description: OK
       tags:
-      - container registry
+      - containers
+      - registries
 definitions:
   RegistryNameCheckRequest:
     properties:
