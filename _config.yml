@@ -1,9 +1,9 @@
-title: Streamdata Gallery
-url: azure-container-registry.api.streamdata.gallery
+title: Streamdata Gallery Azure Container Registry
+url: azure-container-registry.streamdata.gallery
 tag: Azure Container Registry
 markdown: kramdown
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
-github_user: streamdata-gallery-organizations
+github_user: streamdata-gallery
 github_repo: azure-container-registry
 github_branch: master
 collections:
