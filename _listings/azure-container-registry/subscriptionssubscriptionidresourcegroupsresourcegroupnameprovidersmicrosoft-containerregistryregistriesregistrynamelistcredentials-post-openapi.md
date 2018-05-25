@@ -1,10 +1,11 @@
 ---
 swagger: "2.0"
 x-collection-name: Azure Container Registry
-x-complete: 1
+x-complete: 0
 info:
-  title: ContainerRegistryManagementClient
+  title: Azure Container Registry API Registries List Credentials
   version: 1.0.0
+  description: Lists the login credentials for the specified container registry.
 host: management.azure.com
 basePath: /
 schemes:
@@ -163,26 +164,17 @@ paths:
       tags:
       - Containers
       - Registries
-  ? /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ContainerRegistry/registries/{registryName}/regenerateCredential
-  : post:
-      summary: Registries Regenerate Credential
-      description: Regenerates one of the login credentials for the specified container
-        registry.
-      operationId: Registries_RegenerateCredential
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-containerregistryregistriesregistrynameregeneratecredential-post
-      parameters:
-      - in: query
-        name: No Name
-      - in: body
-        name: regenerateCredentialParameters
-        description: Specifies name of the password which should be regenerated --
-          password or password2
-        schema:
-          $ref: '#/definitions/holder'
-      responses:
-        200:
-          description: OK
-      tags:
-      - Containers
-      - Registries
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
 ---

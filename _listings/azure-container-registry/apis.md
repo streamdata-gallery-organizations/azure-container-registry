@@ -9,8 +9,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: ""
 tags: Azure Container Registry
-created: "2018-05-21"
-modified: "2018-05-21"
+created: "2018-05-24"
+modified: "2018-05-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-container-registry/master/_listings/azure-container-registry/apis.md
 specificationVersion: "0.14"
 apis:
@@ -25,7 +25,7 @@ apis:
   tags: Containers,Registries
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-container-registry/master/_listings/azure-container-registry/subscriptionssubscriptionidprovidersmicrosoftcontainerregistrychecknameavailability-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-container-registry/master/_listings/azure-container-registry/subscriptionssubscriptionidprovidersmicrosoft-containerregistrychecknameavailability-post-openapi.md
 - name: Azure Container Registry API Operations List
   x-api-slug: azure-container-registry-api
   description: Lists all of the available Azure Container Registry REST API operations.
@@ -35,7 +35,7 @@ apis:
   tags: Operation
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-container-registry/master/_listings/azure-container-registry/providersmicrosoftcontainerregistryoperations-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-container-registry/master/_listings/azure-container-registry/providersmicrosoft-containerregistryoperations-get-openapi.md
 - name: Azure Container Registry API Registries Get
   x-api-slug: azure-container-registry-api
   description: Gets the properties of the specified container registry.
@@ -45,9 +45,9 @@ apis:
   tags: Containers,Registries
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-container-registry/master/_listings/azure-container-registry/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcontainerregistryregistriesregistryname-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-container-registry/master/_listings/azure-container-registry/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-containerregistryregistriesregistryname-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-container-registry/master/_listings/azure-container-registry/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcontainerregistryregistriesregistryname-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-container-registry/master/_listings/azure-container-registry/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-containerregistryregistriesregistryname-get-openapi.md
 - name: Azure Container Registry API Registries Create
   x-api-slug: azure-container-registry-api
   description: Creates a container registry with the specified parameters.
@@ -57,7 +57,7 @@ apis:
   tags: Containers,Registries
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-container-registry/master/_listings/azure-container-registry/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcontainerregistryregistriesregistryname-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-container-registry/master/_listings/azure-container-registry/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-containerregistryregistriesregistryname-put-openapi.md
 - name: Azure Container Registry API Registries Delete
   x-api-slug: azure-container-registry-api
   description: Deletes a container registry.
@@ -67,9 +67,9 @@ apis:
   tags: Containers,Registries
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-container-registry/master/_listings/azure-container-registry/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcontainerregistryregistriesregistryname-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-container-registry/master/_listings/azure-container-registry/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-containerregistryregistriesregistryname-delete-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-container-registry/master/_listings/azure-container-registry/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcontainerregistryregistriesregistryname-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-container-registry/master/_listings/azure-container-registry/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-containerregistryregistriesregistryname-delete-openapi.md
 - name: Azure Container Registry API Registries Update
   x-api-slug: azure-container-registry-api
   description: Updates a container registry with the specified parameters.
@@ -79,7 +79,7 @@ apis:
   tags: Containers,Registries
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-container-registry/master/_listings/azure-container-registry/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcontainerregistryregistriesregistryname-patch-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-container-registry/master/_listings/azure-container-registry/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-containerregistryregistriesregistryname-patch-openapi.md
 - name: Azure Container Registry API Registries List By Resource Group
   x-api-slug: azure-container-registry-api
   description: Lists all the container registries under the specified resource group.
@@ -89,9 +89,9 @@ apis:
   tags: Containers,Registries
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-container-registry/master/_listings/azure-container-registry/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcontainerregistryregistries-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-container-registry/master/_listings/azure-container-registry/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-containerregistryregistries-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-container-registry/master/_listings/azure-container-registry/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcontainerregistryregistries-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-container-registry/master/_listings/azure-container-registry/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-containerregistryregistries-get-openapi.md
 - name: Azure Container Registry API Registries List
   x-api-slug: azure-container-registry-api
   description: Lists all the container registries under the specified subscription.
@@ -101,9 +101,9 @@ apis:
   tags: Containers,Registries
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-container-registry/master/_listings/azure-container-registry/subscriptionssubscriptionidprovidersmicrosoftcontainerregistryregistries-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-container-registry/master/_listings/azure-container-registry/subscriptionssubscriptionidprovidersmicrosoft-containerregistryregistries-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-container-registry/master/_listings/azure-container-registry/subscriptionssubscriptionidprovidersmicrosoftcontainerregistryregistries-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-container-registry/master/_listings/azure-container-registry/subscriptionssubscriptionidprovidersmicrosoft-containerregistryregistries-get-openapi.md
 - name: Azure Container Registry API Registries List Credentials
   x-api-slug: azure-container-registry-api
   description: Lists the login credentials for the specified container registry.
@@ -113,9 +113,9 @@ apis:
   tags: Containers,Registries
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-container-registry/master/_listings/azure-container-registry/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcontainerregistryregistriesregistrynamelistcredentials-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-container-registry/master/_listings/azure-container-registry/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-containerregistryregistriesregistrynamelistcredentials-post-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-container-registry/master/_listings/azure-container-registry/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcontainerregistryregistriesregistrynamelistcredentials-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-container-registry/master/_listings/azure-container-registry/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-containerregistryregistriesregistrynamelistcredentials-post-openapi.md
 - name: Azure Container Registry API Registries Regenerate Credential
   x-api-slug: azure-container-registry-api
   description: Regenerates one of the login credentials for the specified container
@@ -126,7 +126,7 @@ apis:
   tags: Containers,Registries
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-container-registry/master/_listings/azure-container-registry/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcontainerregistryregistriesregistrynameregeneratecredential-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-container-registry/master/_listings/azure-container-registry/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-containerregistryregistriesregistrynameregeneratecredential-post-openapi.md
 - name: Azure Container Registry API
   x-api-slug: azure-container-registry-api
   description: Azure Container Registry allows you to store images for all types of
