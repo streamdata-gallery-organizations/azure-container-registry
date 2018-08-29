@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - Azure Container Registry",
+	"description": "This is a repository of azure container registry APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/azure-container-registry.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-29",
+	"url": "http://azure-container-registry.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Azure Container Registry",
+			"x-api-slug": "azure-container-registry",
+			"description": "Azure Container Registry allows you to store images for all types of container deployments including DC/OS, Docker Swarm, Kubernetes, and Azure services such as App Service, Batch, Service Fabric, and others. Your DevOps team can manage the configuration of apps isolated from the configuration of the hosting environment.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-manage-containers.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/container-registry/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Azure Container Registry",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-container-registry/master/_listings/azure-container-registry/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Azure Container Registry",
+	"include": [
+		{
+			"name": "Azure Container Registry",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-container-registry/master/_listings/azure-container-registry/apis.yaml"
+		}
+	]
+}
